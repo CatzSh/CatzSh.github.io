@@ -1,0 +1,94 @@
+header{
+    padding: 25px;
+    color: white;
+    background-repeat: no-repeat;
+    background-color: black;
+    margin: 0;
+    letter-spacing: 1px;
+    position: fixed;
+}
+#sp1{
+    margin-left: 20px;
+}
+#sp2{
+    margin-left: 20px;
+}
+#sp3{
+    margin-left: 20px;
+}
+#sp4{
+    margin-left: 20px;
+}
+.head{
+    font-family:'Trebuchet MS';
+    font-weight: 20px;
+    display: block;
+    margin-right: 20px;
+    padding-right: 20px;
+}
+.rtt{
+    font-family:'Trebuchet MS';
+    display:inline-block;
+    animation: slide 30s linear infinite;
+    white-space: nowrap;
+    overflow: hidden;
+    height:auto;
+    width:min-content;
+}
+@keyframes slide{
+    0% {
+        transform: translateX(100%)
+    }
+    100% {
+        transform: translateX(-100%)
+    }  
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(https://images2.alphacoders.com/221/thumb-1920-221782.jpg);
+    color: whitesmoke;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.main{
+    padding: 2%;
+    font-weight: bolder;
+    display: inline-block;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    font-family: 'Cambria';
+    font-size: 35px;
+    background-color: black;
+    background-repeat: no-repeat;
+    margin: 20px
+}
+.sub{
+    padding-left: 15%;
+    font-size: 22px;
+}
+button{
+    position: relative;
+    margin-top: 14em;
+    left: 32%;
+    right: 50%;
+        transform: translate(-68%, -50%);
+    background-repeat: no-repeat;
+    padding: 15px 25px;
+    letter-spacing: 0.5px;
+    background-color: transparent;
+    color: white;
+    border-width: 2px;
+    border-radius: 5em;
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgba(245, 245, 245, 0.329);
+    transition: all .6s ease;
+    font-weight: 10px;
+    letter-spacing: 2px;
+    border-color: blue;
+    border-style: solid;
+    
+}
